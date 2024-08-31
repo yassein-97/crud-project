@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="home">
+        <div class="container">
+            <div class="row justify-content-center my-5">
+                <div class="col-md-8">
+                    <div class="todo-app bg-info text-center rounded-2 p-3">
+                        <h1>To do list</h1>
+                        <div class="form-group d-flex">
+                            <input id="my-input" class="form-control me-1" type="text" placeholder="Add NewTask">
+                            <button id="add-btn" class="btn btn-dark" onclick="addTask()">Add</button>
+                        </div>
+
+                        <table class="table mt-4">
+                            <tbody id="my-table">
+                                <!-- <tr>
+                                    <td>Html</td>
+                                    <td><button class="btn btn-danger" onclick="deleteTask()"> <i class="fa-solid fa-trash-can"></i> Delete</button></td>
+                                    <td><button class="btn btn-warning"> <i class="fa-solid fa-pen-to-square"></i> Edit</button></td>
+                                </tr> -->
+                            </tbody>
+                        </table>
+                    </div>
+
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

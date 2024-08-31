@@ -1,0 +1,42 @@
+
+Create a function that takes an array of strings and returns an array with only the strings
+that have numbers in them. If there are no strings containing numbers, return an empty array.
+
+Examples
+numInStr(["1a", "a", "2b", "b"]) ➞ ["1a", "2b"]
+
+numInStr(["abc", "abc10"]) ➞ ["abc10"]
+
+numInStr(["abc", "ab10c", "a10bc", "bcd"]) ➞ ["ab10c", "a10bc"]
+
+numInStr(["this is a test", "test1"]) ➞ ["test1"]
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.
+
+
+
+
+
+
+Write a sum method which will work properly when invoked using either syntax below.
+
+console.log(sum(2,3));   // Outputs 5
+console.log(sum(2)(3));  // Outputs 5
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.
+
+
+
+
+Create a function that takes an array of numbers and return "Boom!" if the digit 7 appears in the array.
+ Otherwise, return "there is no 7 in the array".
+
+Examples
+sevenBoom([1, 2, 3, 4, 5, 6, 7]) ➞ "Boom!"
+// 7 contains the number seven.
+
+sevenBoom([8, 6, 33, 100]) ➞ "there is no 7 in the array"
+// None of the items contain 7 within them.
+
+sevenBoom([2, 55, 60, 97, 86]) ➞ "Boom!"
+// 97 contains the number seven.
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.
